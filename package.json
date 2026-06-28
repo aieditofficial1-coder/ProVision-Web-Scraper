@@ -1,0 +1,13 @@
+{
+  "name": "provision-web-scraper",
+  "version": "1.0.0",
+  "description": "Provision Web Scraper – AI-Powered Website Data Extraction",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install && cd ../backend && npx playwright install chromium",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview"
+  }
+}

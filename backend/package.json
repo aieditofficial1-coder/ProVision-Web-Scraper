@@ -1,0 +1,23 @@
+{
+  "name": "provision-scraper-backend",
+  "version": "1.0.0",
+  "description": "Provision Web Scraper Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "playwright": "^1.44.1",
+    "xlsx": "^0.18.5",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
