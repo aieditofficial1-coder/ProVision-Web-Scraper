@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = 'https://provision-web-scraper-leadgen.onrender.com/api';
 
 export async function startScrapeJob(urlText) {
   const res = await fetch(`${BASE}/scrape/start`, {
